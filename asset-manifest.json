@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ryckymorthyApp/static/css/main.00cb9d20.css",
-    "main.js": "/ryckymorthyApp/static/js/main.f83081b7.js",
-    "index.html": "/ryckymorthyApp/index.html",
-    "main.00cb9d20.css.map": "/ryckymorthyApp/static/css/main.00cb9d20.css.map",
-    "main.f83081b7.js.map": "/ryckymorthyApp/static/js/main.f83081b7.js.map"
+    "main.css": "/rickymorthyApp/static/css/main.00cb9d20.css",
+    "main.js": "/rickymorthyApp/static/js/main.f83081b7.js",
+    "index.html": "/rickymorthyApp/index.html",
+    "main.00cb9d20.css.map": "/rickymorthyApp/static/css/main.00cb9d20.css.map",
+    "main.f83081b7.js.map": "/rickymorthyApp/static/js/main.f83081b7.js.map"
   },
   "entrypoints": [
     "static/css/main.00cb9d20.css",
