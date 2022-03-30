@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap');
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    margin-top: 1em;
+}
+
+.contenedor .figura {
+    position: relative;
+    height: 90%;
+    width: 95%;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 10px 5px 30px;
+    object-fit: cover;
+}
+
+.contenedor .figura img {
+    width: 100%;
+    height: 100%;
+    transition: all 250ms ease-out;
+    background-position: center;
+}
+
+.contenedor .figura .capa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #423658a4;
+    opacity: 0;
+    transition: all 250ms ease-out;
+    visibility: visible;
+}
+
+.contenedor .figura .capa p {
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 10vh;
+    font-family: 'Passion One', cursive;
+}
+
+.contenedor .figura :hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor .figura :hover>.capa h1 {
+    display: inline-block;
+    align-tracks: center;
+}
+
+.contenedor .figura :hover>img {
+    transform: scale(1.1);
+}
