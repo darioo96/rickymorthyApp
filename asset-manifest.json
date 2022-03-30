@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rickymorthyApp/static/css/main.c68d68e2.css",
+    "main.js": "/rickymorthyApp/static/js/main.6cff7241.js",
+    "index.html": "/rickymorthyApp/index.html",
+    "main.c68d68e2.css.map": "/rickymorthyApp/static/css/main.c68d68e2.css.map",
+    "main.6cff7241.js.map": "/rickymorthyApp/static/js/main.6cff7241.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c68d68e2.css",
+    "static/js/main.6cff7241.js"
+  ]
+}
