@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import React from "react";
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
 import Navbar1 from "./components/Navbar1";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -30,8 +31,8 @@ function App() {
             <Categorias text="LOCALIZACIONES" url="/localizaciones" img="https://c.wallhere.com/photos/c1/64/Rick_and_Morty_space-1341343.jpg!d"/>
             <Categorias text="EPISODIOS" url="/episodios" img="https://c.wallhere.com/photos/17/ab/1920x1080_px_Adult_Swim_animation_planet_Rick_And_Morty_space-660250.jpg!d"/>
           </Route>
-
         </Switch>          
+        <Footer/>
       </Router>
     );
 }
