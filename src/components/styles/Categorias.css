@@ -35,12 +35,12 @@
     background: #423658a4;
     opacity: 0;
     transition: all 250ms ease-out;
-    visibility: visible;
+    visibility: hidden;
 }
 
 .contenedor .figura .capa p {
     color: rgba(0, 0, 0, 0.63);
-    font-size: 10vh;
+    font-size: 9vh;
     font-family: 'Passion One', cursive;
 }
 
@@ -49,11 +49,13 @@
     visibility: visible;
 }
 
-.contenedor .figura :hover>.capa h1 {
-    display: inline-block;
-    align-tracks: center;
-}
-
 .contenedor .figura :hover>img {
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 780px) {
+    .contenedor .figura .capa {
+        opacity: 1;
+        visibility: visible;
+    }
 }
