@@ -14,7 +14,7 @@ nav {
 .logo h2 {
     font-family: 'Orbitron', sans-serif;
     font-weight: 600;
-    margin-left: 15px;
+    margin: 15px;
     color: rgba(90, 66, 230, 0.719);
     font-size: 6vh;
 }
@@ -40,4 +40,17 @@ nav ul li a {
 nav ul li:hover>a {
     color: rgb(63, 157, 245);
     font-weight: 600;
+}
+
+@media screen and (max-width: 780px) {
+    nav ul {
+        visibility: hidden;
+    }
+    .logo {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
 }
