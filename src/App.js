@@ -1,19 +1,20 @@
 import Categorias from "./components/Categorias";
 import Navbar from "./components/Navbar";
 import React from "react";
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
+import {BrowserRouter, Switch, Route, Link} from "react-router-dom"
 import Navbar1 from "./components/Navbar1";
 import Footer from "./components/Footer";
+import Tarjetas from "./components/Tarjetas";
 
 function App() {
     return (
-      <Router>
+      <BrowserRouter>
         <Switch> 
 
         <Route path="/personajes">
-            <Navbar/>
-            <h1>Personajes</h1>
-          </Route>
+          <Navbar/>
+          <Tarjetas cat ="personajes"/>
+        </Route>
 
           <Route path="/episodios">
             <Navbar/>
@@ -33,7 +34,7 @@ function App() {
           </Route>
         </Switch>          
         <Footer/>
-      </Router>
+      </BrowserRouter>
     );
 }
 
