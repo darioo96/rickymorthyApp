@@ -13,17 +13,17 @@ function App() {
 
         <Route path="/personajes">
           <Navbar/>
-          <Tarjetas cat ="personajes"/>
+          <Tarjetas url ="https://rickandmortyapi.com/api/character"/>
         </Route>
 
           <Route path="/episodios">
             <Navbar/>
-            <h1>episodios</h1>
+            <Tarjetas url ="https://rickandmortyapi.com/api/episode"/>
           </Route>
 
           <Route path="/localizaciones">
             <Navbar/>
-            <h1>localizaciones</h1>
+            <Tarjetas url ="https://rickandmortyapi.com/api/location"/>
           </Route>
 
           <Route path="/">

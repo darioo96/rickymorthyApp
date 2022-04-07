@@ -1,12 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import './styles/Tarjetas.css'
 
 function Tarjetas(props) {
+  const initialUrl = props.url;
+
+  const fetchCharacters =  (url) =>{
+    fetch(url)
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log(error))
+  }
+
+  useEffect(() => {
+    fetchCharacters(initialUrl);
+  }, [])
   return (
     <>
-        <h1>{props.cat}</h1>
-        <h2>sdafasdfa</h2>
+        <div className="contenedor">
+          <div className="caja-tarjetas">
+
+          </div>
+        </div>
     </>
   )
 }
+
 
 export default Tarjetas

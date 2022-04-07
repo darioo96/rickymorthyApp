@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 footer {
-    position: absolute;
+    position: fixed;
     border-bottom-left-radius: 13em/3em;
     background: rgb(80, 128, 186);
     background: radial-gradient(circle, rgba(80, 128, 186, 0.8463760504201681) 28%, rgba(137, 127, 171, 0.6306897759103641) 100%);

@@ -3,9 +3,8 @@ import './styles/Navbar.css'
 
 function Navbar() {
   return (
-    <div>
-        <nav>
-            <a href="." class="logo">
+        <nav className='nav-container'>
+            <a href="." className="logo">
                 <h2>Rick y Morthy</h2>
             </a>
             <ul>
@@ -14,7 +13,6 @@ function Navbar() {
                 <li><a href="/episodios">Episodios</a></li>
             </ul>
         </nav>
-    </div>
   )
 }
 export default Navbar

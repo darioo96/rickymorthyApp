@@ -3,13 +3,11 @@ import './styles/Navbar.css'
 
 function Navbar1() {
   return (
-    <div>
-        <nav>
+        <nav className='nav-container'>
             <a href="." class="logo">
                 <h2>Rick y Morthy</h2>
             </a>
         </nav>
-    </div>
   )
 }
 
