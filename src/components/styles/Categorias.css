@@ -14,12 +14,20 @@
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 10px 5px 30px;
-    object-fit: cover;
+}
+
+.contenedor-cat .figura button {
+    padding: 0px;
+    margin: 0px;
+    background: none;
+    border: none;
+    pointer-events: all;
 }
 
 .contenedor-cat .figura img {
     width: 100%;
     height: 100%;
+    margin: auto;
     transition: all 250ms ease-out;
     background-position: center;
 }
